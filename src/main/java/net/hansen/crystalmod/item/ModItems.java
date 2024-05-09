@@ -1,6 +1,8 @@
 package net.hansen.crystalmod.item;
 
 import net.hansen.crystalmod.CrystalMod;
+import net.hansen.crystalmod.item.custom.BlackTourmalineArmorItem;
+import net.hansen.crystalmod.item.custom.SapphireArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,21 +34,20 @@ public class ModItems {
 
     // Utilities //
     public static final RegistryObject<Item> SAPPHIRE_ELYTRA = ITEMS.register("sapphire_elytra",
-            () -> new SapphireElytraItem(new Item.Properties().durability(956).rarity(Rarity.UNCOMMON)));
+            () -> new SapphireElytraItem(new Item.Properties().durability(1256).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> BLACK_TOURMALINE_ELYTRA = ITEMS.register("black_tourmaline_elytra",
-            () -> new BlackTourmalineElytraItem(new Item.Properties().durability(956).rarity(Rarity.UNCOMMON)));
-
+            () -> new BlackTourmalineElytraItem(new Item.Properties().durability(1256).rarity(Rarity.UNCOMMON)));
 
 
     // ARMORS // Sapphire
     public static final RegistryObject<ArmorItem> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET,  new  Item.Properties().rarity(Rarity.EPIC)));
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET,  new  Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<ArmorItem> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE,  new  Item.Properties().rarity(Rarity.EPIC)));
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE,  new  Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<ArmorItem> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS,  new Item.Properties().rarity(Rarity.EPIC)));
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS,  new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<ArmorItem> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS,  new Item.Properties().rarity(Rarity.EPIC)));
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS,  new Item.Properties().rarity(Rarity.EPIC)));
 
     // ARMORS // Orichalcum
     public static final RegistryObject<ArmorItem> ORICHALCUM_HELMET = ITEMS.register("orichalcum_helmet",
@@ -70,15 +71,13 @@ public class ModItems {
 
     // ARMORS // Black_tourmaline
     public static final RegistryObject<ArmorItem> BLACK_TOURMALINE_HELMET = ITEMS.register("black_tourmaline_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.HELMET,  new  Item.Properties().rarity(Rarity.EPIC)));
+            () -> new BlackTourmalineArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.HELMET,  new  Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<ArmorItem> BLACK_TOURMALINE_CHESTPLATE = ITEMS.register("black_tourmaline_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.CHESTPLATE,  new  Item.Properties().rarity(Rarity.EPIC)));
+            () -> new BlackTourmalineArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.CHESTPLATE,  new  Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<ArmorItem> BLACK_TOURMALINE_LEGGINGS = ITEMS.register("black_tourmaline_leggings",
-            () -> new ArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.LEGGINGS,  new Item.Properties().rarity(Rarity.EPIC)));
+            () -> new BlackTourmalineArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.LEGGINGS,  new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<ArmorItem> BLACK_TOURMALINE_BOOTS = ITEMS.register("black_tourmaline_boots",
-            () -> new ArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.BOOTS,  new Item.Properties().rarity(Rarity.EPIC)));
-
-
+            () -> new BlackTourmalineArmorItem(ModArmorMaterials.BLACK_TOURMALINE, ArmorItem.Type.BOOTS,  new Item.Properties().rarity(Rarity.EPIC)));
 
     // Tool & Weapon//
 
@@ -137,8 +136,6 @@ public class ModItems {
             () -> new EnchantedGoldenAppleItem(new Item.Properties().rarity(Rarity.EPIC).food(ModFoods.ORICHALCUM_APPLE)));
     public static final RegistryObject<Item> CHLOROPHYTE_APPLE = ITEMS.register("chlorophyte_apple",
             () -> new EnchantedGoldenAppleItem(new Item.Properties().rarity(Rarity.EPIC).food(ModFoods.CHLOROPHYTE_APPLE)));
-
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

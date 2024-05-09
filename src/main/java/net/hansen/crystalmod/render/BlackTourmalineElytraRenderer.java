@@ -19,17 +19,14 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 
-@SuppressWarnings("NullableProblems")
 public class BlackTourmalineElytraRenderer<E extends LivingEntity, M extends EntityModel<E>> extends ElytraLayer<E, M> {
     private static final ResourceLocation TEXTURE = new ResourceLocation(CrystalMod.MOD_ID, "textures/entity/black_tourmaline_elytra.png");
-    public static final ResourceLocation ELYTRA_ID = new ResourceLocation("minecraft", "elytra");
     private final ElytraModel<E> model;
 
     public BlackTourmalineElytraRenderer(RenderLayerParent<E, M> pRenderer, EntityModelSet pModelSet) {
         super(pRenderer, pModelSet);
         this.model = new ElytraModel<>(pModelSet.bakeLayer(ModelLayers.ELYTRA));
     }
-
     @Override
     public void render(PoseStack pMatrixStack, MultiBufferSource pBuffer, int pPackedLight, E pLivingEntity, float pLimbSwing, float pLimbSwingAmount, float pPartialTicks, float pAgeInTicks, float pNetHeadYaw, float pHeadPitch) {
         ItemStack itemStack = pLivingEntity.getItemBySlot(EquipmentSlot.CHEST);
@@ -43,4 +40,4 @@ public class BlackTourmalineElytraRenderer<E extends LivingEntity, M extends Ent
             pMatrixStack.popPose();
         }
     }
-        }
+}
