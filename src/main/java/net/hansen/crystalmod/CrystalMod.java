@@ -28,8 +28,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import top.theillusivec4.curios.api.SlotTypeMessage;
 import top.theillusivec4.curios.api.SlotTypePreset;
+import top.theillusivec4.curios.api.type.capability.ICuriosItemHandler;
 
-
+// The value here should match an entry in the META-INF/mods.toml file
 @Mod(CrystalMod.MOD_ID)
 public class CrystalMod {
     public static final String MOD_ID = "crystalmod";
@@ -52,7 +53,6 @@ public class CrystalMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
-
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTab() == ModCreativeModsTab.CRYSTAL_TAB.get()) {
@@ -132,16 +132,14 @@ public class CrystalMod {
         }
     }
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class DeeperDarkerClient
-    {
+    public static class CrystalModClient {
         @SubscribeEvent
         public static void clientSetup(final FMLClientSetupEvent event) {
             event.enqueueWork(() -> {
                 ItemProperties.register(ModItems.SAPPHIRE_ELYTRA.get(), new ResourceLocation("broken"),
                         (pStack, pLevel, pEntity, pSeed) -> SapphireElytraItem.isFlyEnabled(pStack) ? 0 : 1);
                 ItemProperties.register(ModItems.BLACK_TOURMALINE_ELYTRA.get(), new ResourceLocation("broken"),
-                        (pStack, pLevel, pEntity, pSeed) -> BlackTourmalineElytraItem.isFlyEnabled(pStack) ? 0 : 1);
-            });
+                        (pStack, pLevel, pEntity, pSeed) -> BlackTourmalineElytraItem.isFlyEnabled(pStack) ? 0 : 1);});
 }
         @SubscribeEvent
         public static void addLayers(final EntityRenderersEvent.AddLayers event) {
@@ -149,20 +147,12 @@ public class CrystalMod {
                 if(event.getSkin(name) instanceof PlayerRenderer renderer) {
                     renderer.addLayer(new SapphireElytraRenderer<>(renderer, event.getEntityModels()));
                     renderer.addLayer(new BlackTourmalineElytraRenderer<>(renderer, event.getEntityModels()));
-
-                }
-            });
+                }});
             if(event.getRenderer(EntityType.ARMOR_STAND) instanceof ArmorStandRenderer renderer) {
                 renderer.addLayer(new SapphireElytraRenderer<>(renderer, event.getEntityModels()));
                 renderer.addLayer(new BlackTourmalineElytraRenderer<>(renderer, event.getEntityModels()));
-    }
-}
-        @SubscribeEvent
-        public void enqueueIMC(final InterModEnqueueEvent event) {
-            SlotTypePreset[] types = {SlotTypePreset.BACK};
-            for (SlotTypePreset type : types) {
-                InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> type.getMessageBuilder().build());
             }
         }
     }
 }
+
