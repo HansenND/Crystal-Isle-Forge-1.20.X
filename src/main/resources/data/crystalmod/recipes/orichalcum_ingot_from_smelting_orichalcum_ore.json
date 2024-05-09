@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "orichalcum_ingot",
+  "ingredient": {
+    "item": "crystalmod:orichalcum_ore"
+  },
+  "result": "crystalmod:orichalcum_ingot"
+}

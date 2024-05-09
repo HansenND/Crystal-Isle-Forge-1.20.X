@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "crystalmod:sapphire"
+  },
+  "base": {
+    "item": "crystalmod:orichalcum_shovel"
+  },
+  "result": {
+    "item": "crystalmod:sapphire_shovel"
+  },
+  "template": {
+    "item": "crystalmod:sapphire_upgrade_smithing_template"
+  }
+}

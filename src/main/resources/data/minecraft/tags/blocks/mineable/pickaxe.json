@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "crystalmod:sapphire_ore",
+    "crystalmod:sapphire_block",
+    "crystalmod:orichalcum_ore",
+    "crystalmod:orichalcum_block",
+    "crystalmod:chlorophyte_ore",
+    "crystalmod:chlorophyte_block",
+    "crystalmod:black_tourmaline_ore",
+    "crystalmod:black_tourmaline_block"
+  ]
+}

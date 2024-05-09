@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "crystalmod:sapphire"
+  },
+  "base": {
+    "item": "crystalmod:orichalcum_leggings"
+  },
+  "result": {
+    "item": "crystalmod:sapphire_leggings"
+  },
+  "template": {
+    "item": "crystalmod:sapphire_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crystalmod:chlorophyte_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "crystalmod:chlorophyte_ingot"
+  }
+}

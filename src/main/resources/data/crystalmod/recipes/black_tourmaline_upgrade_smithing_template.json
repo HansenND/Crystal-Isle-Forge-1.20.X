@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "crystalmod:black_tourmaline"
+    },
+    "C": {
+      "item": "crystalmod:chlorophyte_block"
+    },
+    "S": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "crystalmod:black_tourmaline_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

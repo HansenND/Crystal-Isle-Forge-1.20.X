@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "crystalmod:obsidian_stick"
+    },
+    "X": {
+      "item": "crystalmod:orichalcum_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "crystalmod:orichalcum_pickaxe"
+  },
+  "show_notification": true
+}

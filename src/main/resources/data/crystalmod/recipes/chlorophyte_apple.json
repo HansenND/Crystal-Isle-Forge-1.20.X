@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "X": {
+      "item": "crystalmod:chlorophyte_ingot"
+    },
+    "Y": {
+      "item": "crystalmod:chlorophyte_block"
+    }
+  },
+  "pattern": [
+    "XYX",
+    "Y#Y",
+    "XYX"
+  ],
+  "result": {
+    "item": "crystalmod:chlorophyte_apple"
+  },
+  "show_notification": true
+}

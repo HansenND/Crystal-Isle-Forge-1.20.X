@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "crystalmod:chlorophyte_ingot"
+    },
+    "X": {
+      "item": "crystalmod:obsidian_stick"
+    }
+  },
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
+  "result": {
+    "item": "crystalmod:chlorophyte_bow"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "crystalmod:black_tourmaline_ore",
+  "step": "underground_ores"
+}

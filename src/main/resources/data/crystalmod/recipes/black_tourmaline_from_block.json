@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crystalmod:black_tourmaline_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "crystalmod:black_tourmaline"
+  }
+}

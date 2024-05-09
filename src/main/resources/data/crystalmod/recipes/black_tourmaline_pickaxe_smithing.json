@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "crystalmod:black_tourmaline"
+  },
+  "base": {
+    "item": "crystalmod:chlorophyte_pickaxe"
+  },
+  "result": {
+    "item": "crystalmod:black_tourmaline_pickaxe"
+  },
+  "template": {
+    "item": "crystalmod:black_tourmaline_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.9,
+  "group": "chlorophyte_ingot",
+  "ingredient": {
+    "item": "crystalmod:chlorophyte_ore"
+  },
+  "result": "crystalmod:chlorophyte_ingot"
+}

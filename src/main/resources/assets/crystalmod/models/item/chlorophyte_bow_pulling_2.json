@@ -1,0 +1,6 @@
+{
+    "parent": "crystalmod:item/chlorophyte_bow",
+    "textures": {
+        "layer0": "crystalmod:item/chlorophyte_bow_pulling_2"
+    }
+}

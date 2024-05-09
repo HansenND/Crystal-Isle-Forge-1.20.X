@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crystalmod:item/black_tourmaline_elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "crystalmod:item/black_tourmaline_broken_elytra"
+    }
+  ]
+}

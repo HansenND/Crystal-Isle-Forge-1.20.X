@@ -1,0 +1,77 @@
+{
+  "item.crystalmod.black_tourmaline": "Black Tourmaline",
+  "item.crystalmod.sapphire": "Sapphire",
+  "item.crystalmod.orichalcum_ingot": "Orichalcum Bar",
+  "item.crystalmod.raw_orichalcum": "Raw Orichalcum",
+  "item.crystalmod.chlorophyte_ingot": "Chlorophyte Bar",
+  "item.crystalmod.raw_chlorophyte": "Raw Chlorophyte",
+  "item.crystalmod.obsidian_stick": "Obsidian Handle",
+  "item.crystalmod.sapphire_upgrade_smithing_template": "Smithing Template",
+  "item.crystalmod.black_tourmaline_upgrade_smithing_template": "Smithing Template",
+  "item.crystalmod.orichalcum_apple": "Orichalcum Apple",
+  "item.crystalmod.chlorophyte_apple": "Chlorophyte Apple",
+
+
+
+  "item.crystalmod.black_tourmaline_helmet": "Black Tourmaline Helmet",
+  "item.crystalmod.black_tourmaline_chestplate": "Black Tourmaline Chestplate",
+  "item.crystalmod.black_tourmaline_leggings": "Black Tourmaline Leggings",
+  "item.crystalmod.black_tourmaline_boots": "Black Tourmaline Boots",
+
+  "item.crystalmod.black_tourmaline_sword": "Black Tourmaline Sword",
+  "item.crystalmod.black_tourmaline_pickaxe": "Black Tourmaline Pickaxe",
+  "item.crystalmod.black_tourmaline_axe": "Black Tourmaline Axe",
+  "item.crystalmod.black_tourmaline_hoe": "Black Tourmaline Hoe",
+  "item.crystalmod.black_tourmaline_shovel": "Black Tourmaline Shovel",
+
+  "item.crystalmod.sapphire_helmet": "Sapphire Helmet",
+  "item.crystalmod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.crystalmod.sapphire_leggings": "Sapphire Leggings",
+  "item.crystalmod.sapphire_boots": "Sapphire Boots",
+
+  "item.crystalmod.sapphire_sword": "Sapphire Sword",
+  "item.crystalmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.crystalmod.sapphire_axe": "Sapphire Axe",
+  "item.crystalmod.sapphire_hoe": "Sapphire Hoe",
+  "item.crystalmod.sapphire_shovel": "Sapphire Shovel",
+
+  "item.crystalmod.sapphire_elytra": "Sapphire Elytra",
+  "item.crystalmod.black_tourmaline_elytra": "Black Tourmaline Elytra",
+
+  "item.crystalmod.orichalcum_helmet": "Orichalcum Helmet",
+  "item.crystalmod.orichalcum_chestplate": "Orichalcum Chestplate",
+  "item.crystalmod.orichalcum_leggings": "Orichalcum Leggings",
+  "item.crystalmod.orichalcum_boots": "Orichalcum Boots",
+
+  "item.crystalmod.orichalcum_sword": "Orichalcum Sword",
+  "item.crystalmod.orichalcum_pickaxe": "Orichalcum Pickaxe",
+  "item.crystalmod.orichalcum_axe": "Orichalcum Axe",
+  "item.crystalmod.orichalcum_hoe": "Orichalcum Hoe",
+  "item.crystalmod.orichalcum_shovel": "Orichalcum Shovel",
+
+  "item.crystalmod.chlorophyte_helmet": "Chlorophyte Helmet",
+  "item.crystalmod.chlorophyte_chestplate": "Chlorophyte Chestplate",
+  "item.crystalmod.chlorophyte_leggings": "Chlorophyte Leggings",
+  "item.crystalmod.chlorophyte_boots": "Chlorophyte Boots",
+
+  "item.crystalmod.chlorophyte_sword": "Chlorophyte Sword",
+  "item.crystalmod.chlorophyte_pickaxe": "Chlorophyte Pickaxe",
+  "item.crystalmod.chlorophyte_axe": "Chlorophyte Axe",
+  "item.crystalmod.chlorophyte_hoe": "Chlorophyte Hoe",
+  "item.crystalmod.chlorophyte_shovel": "Chlorophyte Shovel",
+
+  "item.crystalmod.chlorophyte_bow": "Chlorophyte Bow",
+
+  "block.crystalmod.black_tourmaline_ore": "Black Tourmaline Ore",
+  "block.crystalmod.black_tourmaline_block": "Block of Black Tourmaline",
+  "block.crystalmod.sapphire_block": "Block of Sapphire",
+  "block.crystalmod.sapphire_ore": "Sapphire Ore",
+  "block.crystalmod.chlorophyte_ore": "Chlorophyte Ore",
+  "block.crystalmod.chlorophyte_block": "Chlorophyte Block",
+  "block.crystalmod.orichalcum_ore": "Orichalcum Ore",
+  "block.crystalmod.orichalcum_block": "Block of Orichalcum",
+
+
+
+  "creativemodetab.crystal_tab": "Crystal Items"
+}
